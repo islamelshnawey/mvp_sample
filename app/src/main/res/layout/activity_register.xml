@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/immacbytes" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="#80000000"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/signIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Sign in"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/signUp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Sign Up"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="#f0f0f4"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="16dp"
+        android:hint="E-mail"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f4"
+        android:drawableLeft="@drawable/usrusr"
+        android:drawablePadding="16dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#f0f0f4"
+        android:drawableLeft="@drawable/lockers"
+        android:drawablePadding="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/btn_main"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+</LinearLayout>

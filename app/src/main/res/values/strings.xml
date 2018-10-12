@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SignInSignUpMVPRetrofitRx</string>
+    <string name="errRequiredField">هذا الحقل مطلوب !</string>
+</resources>
