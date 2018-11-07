@@ -8,7 +8,9 @@ import android.graphics.drawable.ColorDrawable;
 import com.is.mvp_sample.R;
 
 /**
- * Created by Islam on 10/12/2018.
+ *
+ * @author Islam
+ * @date 10/12/2018
  */
 
 public class DialogUtils {

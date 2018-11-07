@@ -33,7 +33,6 @@ public class PreferencesManager {
 
     /**
      * set app language
-     *
      * @param lang
      */
     public void setLanguage(String lang) {
@@ -42,7 +41,6 @@ public class PreferencesManager {
 
     /**
      * get app language
-     *
      * @return
      */
     public String getLanguage() {

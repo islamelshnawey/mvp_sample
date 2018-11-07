@@ -11,7 +11,9 @@ import com.is.mvp_sample.R;
 import com.is.mvp_sample.util.DialogUtils;
 
 /**
- * Created by Islam on 10/12/2018.
+ *
+ * @author Islam
+ * @date 10/12/2018
  */
 
 public class BaseActivity extends AppCompatActivity implements BaseMvpView{

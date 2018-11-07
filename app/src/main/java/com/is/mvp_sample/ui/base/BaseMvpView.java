@@ -3,7 +3,8 @@ package com.is.mvp_sample.ui.base;
 import android.widget.EditText;
 
 /**
- * Created by Islam on 10/12/2018.
+ * @author Islam
+ * @date 10/12/2018
  */
 
 public interface BaseMvpView {
